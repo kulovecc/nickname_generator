@@ -9,4 +9,4 @@ if __name__ == '__main__':
         noun = json.loads(f.read())
 
     for i in range(5):
-        print(adjective[random.randrange(len(adjective))]+'的'+noun[random.randrange(len(noun))])
+        print(adjective[random.randrange(len(adjective)-1)]+'的'+noun[random.randrange(len(noun)-1)])
